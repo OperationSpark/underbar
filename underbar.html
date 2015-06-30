@@ -1,0 +1,61 @@
+<html><head>
+  <style>
+
+    body {
+      margin: 0 auto;
+      width: 960px;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="underbar">Underbar</h1>
+  <p>This project was written in the same spirit as
+  <a href="https://github.com/mrdavidlaing/javascript-koans">JavaScript Koans</a>, and thusly
+  uses the <a href="http://visionmedia.github.io/mocha">Mocha Test Suite</a> to facilitate a
+  TDD approach to learning. It walks you through a reimplementation of
+  <a href="http://underscore.js">underscore.js</a>, a popular collection of useful functions
+  authored by Jeremy Ashkenas.</p>
+  <h2 id="links-and-resources">Links and Resources</h2>
+  <p>Some quick notes that may come in handy:</p>
+  <ul>
+  <li>As you work through these functions, you may sometimes have questions about
+  what arguments they take, or about how they work (their <em>interface</em>). If the
+  inline comments don&#39;t clarify these questions, it&#39;s a good idea to reference
+  the official library&#39;s <a href="http://underscore.js">documentation</a>.</li>
+  <li>Many of the functions operate on &quot;collections.&quot; They can take both arrays or
+  objects as their arguments and you need to be able to handle both cases.<ul>
+  <li>You can use <code>Array.isArray(obj)</code> to find out whether an object is an array.</li>
+  <li>You can use <code>obj.length</code> to test if something is either a string or an
+  array.</li>
+  </ul>
+</li></ul>
+
+  <h2 id="goals">Goals</h2>
+  <p>As is, the repository is missing code for most of the functions. It&#39;s your job
+  to fix the library by implementing them. The functions are split in two sections,
+  with a separate test suite for each.</p>
+  <p>The files in the <code>spec</code> directory contain the test suites. Your goal is to get all
+  the tests to pass by implementing the missing functions. Run all the tests by
+  opening <code>SpecRunner.html</code> in your browser.</p>
+  <p>The file <code>src/underbar.js</code> contains function definitions and explanations for
+  the following functions (<em>italicized functions</em> are solved for you). Implement
+  each of the functions by making all of the tests pass:</p>
+
+  <p><strong>Note:</strong> Some browsers provide built-in functions--including <code>forEach</code>, <code>map</code>,
+  <code>reduce</code> and <code>filter</code>--that replicate the functionality of some of the functions
+  you will implement. Don&#39;t use them to implement your functions.</p>
+
+  <h2 id="extra-extra-credit">Extra Extra Credit</h2>
+  <ul>
+  <li>Download the real <a href="https://github.com/documentcloud/underscore/">underscore.js</a>
+  implementation and test suite, and try to understand how it works. A great way
+  to do this is to break parts of the code and see which tests fail.</li>
+  <li>Compare your implementations to the ones in the real library. Notice that this
+  assignment has stripped out some complexity from the original library; notice
+  where these changes have been made, and try to understand what edge cases the
+  original library is handling that your functions aren&#39;t.</li>
+  <li>Notice that the real underscore.js uses an object named <code>breaker</code>. Look through the
+  source and understand what this is doing, and how it optimizes some of the functions.</li>
+  </ul>
+
+</body></html>
