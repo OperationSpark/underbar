@@ -2,7 +2,7 @@
 
 This project was written in the same spirit as
 [JavaScript Koans](https://github.com/mrdavidlaing/javascript-koans), and thusly
-uses the [Mocha Test Suite](http://visionmedia.github.io/mocha) to facilitate a
+uses the [Mocha Test Suite](http://mochajs.org/) to facilitate a
 TDD approach to learning. It walks you through a reimplementation of
 [underscore.js](http://underscore.js), a popular collection of useful functions
 authored by Jeremy Ashkenas.
